@@ -1,3 +1,4 @@
+require = require('esm')(module)
 const asyncHooks = require('async_hooks')
 const { v4 } = require('uuid')
 const store = new Map();
